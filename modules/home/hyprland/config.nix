@@ -60,7 +60,7 @@
       dwindle = {
         # no_gaps_when_only = false;
         force_split = 0;
-        special_scale_factor = 1.0;
+        special_scale_factor = 0;
         split_width_multiplier = 1.0;
         use_active_for_splits = true;
         pseudotile = "yes";
@@ -69,7 +69,7 @@
 
       master = {
         new_status = "master";
-        special_scale_factor = 1;
+        special_scale_factor = 0;
         # no_gaps_when_only = false;
       };
 

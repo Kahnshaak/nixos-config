@@ -43,6 +43,15 @@
       # python
       piv = "python -m venv .venv";
       psv = "source .venv/bin/activate";
+      
+      # navigation
+      school = "cd ~/Documents/school/";
+
+      # git
+      vibes = "git status";
+      yeet = "git push";
+      yoink = "git pull";
+
     };
   };
 }

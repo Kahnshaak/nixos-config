@@ -65,6 +65,8 @@ in
     pipes                             # terminal screensaver
     sl
     tty-clock                         # cli clock
+    tmux
+    tree
 
     ## GUI Apps
     audacity
@@ -88,6 +90,9 @@ in
     gcc
     gdb
     gnumake
+
+    # Go
+    go
 
     # Zig
     inputs.zig.packages.${system}.master
