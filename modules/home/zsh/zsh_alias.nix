@@ -47,11 +47,6 @@
       # navigation
       school = "cd ~/Documents/school/";
 
-      # git
-      vibes = "git status";
-      yeet = "git push";
-      yoink = "git pull";
-
     };
   };
 }

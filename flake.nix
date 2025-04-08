@@ -1,5 +1,5 @@
 {
-  description = "FrostPhoenix's nixos configuration";
+  description = "Kahnshaak's NixOS Configuration";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -51,15 +51,17 @@
   outputs =
     { nixpkgs, self, ... }@inputs:
     let
-      username = "bryce";
+      username = "kahnshaak";
       system = "x86_64-linux";
       pkgs = import nixpkgs {
         inherit system;
         config.allowUnfree = true;
       };
       lib = nixpkgs.lib;
+
     in
     {
+
       nixosConfigurations = {
         desktop = nixpkgs.lib.nixosSystem {
           inherit system;
@@ -69,6 +71,7 @@
             inherit self inputs username;
           };
         };
+
         laptop = nixpkgs.lib.nixosSystem {
           inherit system;
           modules = [ ./hosts/laptop ];
@@ -77,6 +80,7 @@
             inherit self inputs username;
           };
         };
+
         vm = nixpkgs.lib.nixosSystem {
           inherit system;
           modules = [ ./hosts/vm ];

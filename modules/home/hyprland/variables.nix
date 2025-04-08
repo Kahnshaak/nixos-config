@@ -11,7 +11,7 @@
     ANKI_WAYLAND = 1;
     DIRENV_LOG_FORMAT = "";
     WLR_DRM_NO_ATOMIC = 1;
-    QT_AUTO_SCREEN_SCALE_FACTOR = 0; # Check for screen scaling, was originally set to 1
+    QT_AUTO_SCREEN_SCALE_FACTOR = 1; # Check for screen scaling, was originally set to 1
     QT_WAYLAND_DISABLE_WINDOWDECORATION = 1;
     QT_QPA_PLATFORM = "xcb";
     QT_QPA_PLATFORMTHEME = "qt5ct";
