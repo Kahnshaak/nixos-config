@@ -66,7 +66,6 @@ in
     sl
     tty-clock                         # cli clock
     tmux
-    tree
 
     ## GUI Apps
     audacity
