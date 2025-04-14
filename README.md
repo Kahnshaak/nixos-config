@@ -1,7 +1,7 @@
 <h1 align="center">
    <img src="./.github/assets/logo/nixos-logo.png  " width="100px" /> 
    <br>
-      Frost-Phoenix's Flakes 
+      Kahnshaak's Nixos Config
    <br>
       <img src="./.github/assets/pallet/pallet-0.png" width="600px" /> <br>
 
@@ -481,6 +481,7 @@ Other dotfiles that I learned / copy from:
 <!-- end of page, send back to the top -->
 
 <div align="right">
+  <div>Based on Frost-Phoenix's Flakes</div>
   <a href="#readme">Back to the Top</a>
 </div>
 

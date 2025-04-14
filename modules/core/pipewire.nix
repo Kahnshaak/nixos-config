@@ -14,7 +14,7 @@
 	wireplumber
   ];
 
-  systemd.user.services.pipewire.wantedby = [ "default.target" ];
-  systemd.user.services.pipewire-pulse.wantedby = [ "default.target" ];
-  systemd.user.services.wireplumber.wantedby = [ "default.target" ];
+  systemd.user.services.pipewire.wantedBy = [ "default.target" ];
+  systemd.user.services.pipewire-pulse.wantedBy = [ "default.target" ];
+  systemd.user.services.wireplumber.wantedBy = [ "default.target" ];
 }

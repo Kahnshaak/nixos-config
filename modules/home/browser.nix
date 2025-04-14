@@ -6,6 +6,9 @@
 }:
 {
   home.packages = (
-    with pkgs; [ inputs.zen-browser.packages."${system}".default ]
+    with pkgs; [ 
+      inputs.zen-browser.packages."${system}".default
+      brave
+    ]
   );
 }

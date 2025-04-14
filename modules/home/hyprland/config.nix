@@ -104,6 +104,7 @@
 
       animations = {
         enabled = true;
+#	animation = windows, 1, 3, default; # Possibly disable
 
         bezier = [
           "fluent_decel, 0, 0.2, 0.4, 1"

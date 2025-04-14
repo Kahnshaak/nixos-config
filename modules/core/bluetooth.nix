@@ -1,10 +1,10 @@
-{ pkgs, lib, ... } :
+{ pkgs, lib, ... }:
 {
   hardware = {
     bluetooth = {
-    	enable = true;
-	powerOnBoot = true;
-    	settings.General.Experimental = true; # Show battery
+      enable = true;
+      powerOnBoot = true;
+      settings.General.Experimental = true; # Show battery
     };
   };
 
