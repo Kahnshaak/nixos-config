@@ -25,7 +25,7 @@
 
     tlp.settings = {
       CPU_ENERGY_PERF_POLICY_ON_AC = "performance";
-      CPU_ENERGY_PERF_POLICY_ON_BAT = "balanaced";
+      CPU_ENERGY_PERF_POLICY_ON_BAT = "power";
 
       CPU_BOOST_ON_AC = 1;
       CPU_BOOST_ON_BAT = 1;
@@ -64,7 +64,7 @@
   };
 
   swapDevices = [{
-    device = "/swapfile";
+    device = "/dev/disk/by-uuid/4f5f162d-bf33-4bd6-992b-e35af00605e1";
     size = 4096; # 4GB
   }];
 }

@@ -1,19 +1,20 @@
 { pkgs, ... }:
 {
   hardware = {
+#    amdgpu.enable = true;
     graphics = {
       enable = true;
+#      amdgpu.enable = true;
+      enable32Bit = true;
       extraPackages = with pkgs; [
-        vaapiVdpau
         libvdpau-va-gl
-	mesa
 	vulkan-loader
 	vulkan-tools
 	libva
       ];
     };
-
-    cpu.amd.updateMicrocode = true;
   };
+  services.xserver.videoDrivers = [ "amdgpu" ];
+
   hardware.enableRedistributableFirmware = true;
 }

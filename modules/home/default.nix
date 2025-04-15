@@ -26,13 +26,13 @@
     ./retroarch.nix  
     ./rofi.nix                        # launcher
     ./scripts/scripts.nix             # personal scripts
-    ./spicetify.nix                   # spotify client
+#    ./spicetify.nix                   # spotify client
     ./starship.nix                    # shell prompt
     ./swaylock.nix                    # lock screen
     ./swayosd.nix                     # brightness / volume wiget
     ./swaync/swaync.nix               # notification deamon
     # ./viewnior.nix                    # image viewer
-    ./vscodium.nix                    # vscode forck
+#    ./vscodium.nix                    # vscode forck
     ./waybar                          # status bar
     ./waypaper.nix                    # GUI wallpaper picker
     ./xdg-mimes.nix                   # xdg config

@@ -18,7 +18,12 @@
       trusted-public-keys = [
         "nix-gaming.cachix.org-1:nbjlureqMbRAxR1gJ/f3hxemL9svXaZF/Ees8vCUUs4="
       ];
+
+      # Comment these out once I get the build to work properly
+      # These tell the nix builder to use params outside what the hardware is allowing
       download-buffer-size = 1073741824;
+      max-jobs = 2;
+      cores = 2;
     };
   };
   nixpkgs = {

@@ -9,7 +9,7 @@
 {
   imports = [
     ./bootloader.nix
-    ./bluetooth.nix
+#    ./bluetooth.nix
     ./hardware.nix
     ./xserver.nix
     ./network.nix
