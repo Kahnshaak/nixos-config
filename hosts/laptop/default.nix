@@ -65,6 +65,5 @@
 
   swapDevices = [{
     device = "/dev/disk/by-uuid/4f5f162d-bf33-4bd6-992b-e35af00605e1";
-    size = 4096; # 4GB
   }];
 }

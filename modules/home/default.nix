@@ -5,11 +5,11 @@
     ./bat.nix                         # better cat command
     ./browser.nix                     # firefox based browser
     ./btop.nix                        # resouces monitor 
-    ./cava.nix                        # audio visualizer
+#    ./cava.nix                        # audio visualizer
     ./discord/discord.nix             # discord with gruvbox
     ./fastfetch.nix                   # fetch tool
     ./fzf.nix                         # fuzzy finder
-    ./gaming.nix                      # packages related to gaming
+#    ./gaming.nix                      # packages related to gaming
     ./ghostty.nix                     # terminal
     ./git.nix                         # version control
     ./gnome.nix                       # gnome apps
@@ -26,13 +26,13 @@
     ./retroarch.nix  
     ./rofi.nix                        # launcher
     ./scripts/scripts.nix             # personal scripts
-#    ./spicetify.nix                   # spotify client
+    ./spicetify.nix                   # spotify client
     ./starship.nix                    # shell prompt
     ./swaylock.nix                    # lock screen
     ./swayosd.nix                     # brightness / volume wiget
     ./swaync/swaync.nix               # notification deamon
-    # ./viewnior.nix                    # image viewer
-#    ./vscodium.nix                    # vscode forck
+    ./viewnior.nix                    # image viewer
+    ./vscodium.nix                    # vscode forck
     ./waybar                          # status bar
     ./waypaper.nix                    # GUI wallpaper picker
     ./xdg-mimes.nix                   # xdg config
