@@ -1,11 +1,11 @@
 {inputs, username, host, ...}: {
   imports = [
-#    ./aseprite/aseprite.nix           # pixel art editor
+    ./aseprite/aseprite.nix           # pixel art editor
     ./audacious.nix                   # music player
     ./bat.nix                         # better cat command
     ./browser.nix                     # firefox based browser
     ./btop.nix                        # resouces monitor 
-#    ./cava.nix                        # audio visualizer
+    ./cava.nix                        # audio visualizer
     ./discord/discord.nix             # discord with gruvbox
     ./fastfetch.nix                   # fetch tool
     ./fzf.nix                         # fuzzy finder
