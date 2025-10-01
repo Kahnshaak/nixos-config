@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
-  home.packages = (with pkgs; [ rofi-wayland ]);
+  home.packages = (with pkgs; [ rofi ]);
 
   xdg.configFile."rofi/theme.rasi".text = ''
     * {
@@ -21,7 +21,7 @@
       modi: "run,drun,window";
       lines: 5;
       cycle: false;
-      font: "JetBrainsMono NF Bold 15";
+      font: "JetBrainsMono NF Bold 12";
       show-icons: true;
       icon-theme: "Papirus-dark";
       terminal: "ghostty";
@@ -101,7 +101,7 @@
     }
 
     element-icon {
-      size: 28px;
+      size: 16px;
     }
 
     element selected {

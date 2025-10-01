@@ -10,6 +10,8 @@
   imports = [
     ./bootloader.nix
     ./bluetooth.nix
+    ./devtools.nix
+#    ./display-manager.nix
     ./hardware.nix
     ./xserver.nix
     ./network.nix

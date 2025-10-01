@@ -15,5 +15,6 @@
     };
   };
   # To prevent getting stuck at shutdown
-  systemd.extraConfig = "DefaultTimeoutStopSec=10s";
+# systemd.extraConfig = "DefaultTimeoutStopSec=10s";
+  services.xserver.videoDrivers = [ "amdgpu" ];
 }

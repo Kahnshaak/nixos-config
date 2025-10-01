@@ -3,6 +3,7 @@
   config,
   pkgs,
   host,
+  lib,
   ...
 }:
 {
@@ -103,7 +104,7 @@
       zstyle ':fzf-tab:*' switch-group ',' '.'
     '';
 
-    initExtraFirst = ''
+    initContent = lib.mkBefore ''
       # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
       # Initialization code that may require console input (password prompts, [y/n]
       # confirmations, etc.) must go above this block; everything else may go below.
@@ -164,6 +165,8 @@
         zle -N zle-line-init
         zle -N zle-line-finish
       fi
+      
+      export EDITOR=nvim
     '';
   };
 

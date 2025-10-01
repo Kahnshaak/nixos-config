@@ -31,7 +31,7 @@ in
       monitor = 
       text = cmd[update:1000] echo "$(date +"%k:%M")"
       color = rgba(235, 219, 178, .9)
-      font_size = 115
+      font_size = 90 #115
       font_family = Maple Mono Bold
       shadow_passes = 3
       position = 0, ${if (host == "laptop") then "-25" else "-150"}
@@ -44,7 +44,7 @@ in
       monitor =
       text = cmd[update:1000] echo "- $(date +"%A, %B %d") -"
       color = rgba(235, 219, 178, .9)
-      font_size = 18
+      font_size = 14
       font_family = Maple Mono
       shadow_passes = 3
       position = 0, ${if (host == "laptop") then "-225" else "-350"}

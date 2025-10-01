@@ -43,6 +43,10 @@
       url = "github:ghostty-org/ghostty";
     };
 
+    alacritty = {
+      url = "github:alacritty/alacritty";
+    };
+
     zig.url = "github:mitchellh/zig-overlay";
 
     nvf.url = "github:notashelf/nvf";

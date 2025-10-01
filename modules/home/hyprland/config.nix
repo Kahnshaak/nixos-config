@@ -41,7 +41,6 @@
         border_size = 2;
         "col.active_border" = "rgb(98971A) rgb(CC241D) 45deg";
         "col.inactive_border" = "0x00000000";
-        border_part_of_window = false;
         no_border_on_floating = false;
       };
 
@@ -271,27 +270,27 @@
       ];
 
       # windowrule
-      windowrule = [
-        "float,Viewnior"
-        "float,imv"
-        "float,mpv"
-        "tile,Aseprite"
-        "float,audacious"
-        "pin,rofi"
-        "pin,waypaper"
-        "tile, neovide"
-        "idleinhibit focus,mpv"
-        "float,udiskie"
+      #windowrule = [
+      #];
+
+      # windowrulev2
+      windowrulev2 = [
+        "float,class:^(Viewnior)$"
+        "float,class:^(imv)$"
+        "float,class:^(mpv)$"
+        "tile,class:^(Aseprite)$"
+        "float,class:^(audacious)$"
+        "pin,class:^(rofi)$"
+        "pin,class:^(waypaper)$"
+        "tile,class:^(neovide)$"
+        "idleinhibit focus,class:^(mpv)$"
+        "float,class:^(udiskie)$"
         "float,title:^(Transmission)$"
         "float,title:^(Volume Control)$"
         "float,title:^(Firefox — Sharing Indicator)$"
         "move 0 0,title:^(Firefox — Sharing Indicator)$"
         "size 700 450,title:^(Volume Control)$"
         "move 40 55%,title:^(Volume Control)$"
-      ];
-
-      # windowrulev2
-      windowrulev2 = [
         "float, title:^(Picture-in-Picture)$"
         "opacity 1.0 override 1.0 override, title:^(Picture-in-Picture)$"
         "pin, title:^(Picture-in-Picture)$"

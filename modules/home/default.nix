@@ -1,6 +1,6 @@
 {inputs, username, host, ...}: {
   imports = [
-    ./aseprite/aseprite.nix           # pixel art editor
+#    ./aseprite/aseprite.nix           # pixel art editor
     ./audacious.nix                   # music player
     ./bat.nix                         # better cat command
     ./browser.nix                     # firefox based browser
@@ -9,15 +9,15 @@
     ./discord/discord.nix             # discord with gruvbox
     ./fastfetch.nix                   # fetch tool
     ./fzf.nix                         # fuzzy finder
-#    ./gaming.nix                      # packages related to gaming
+    ./gaming.nix                      # packages related to gaming
     ./ghostty.nix                     # terminal
     ./git.nix                         # version control
-    ./gnome.nix                       # gnome apps
+#    ./gnome.nix                       # gnome apps
     ./gtk.nix                         # gtk theme
     ./hyprland                        # window manager
-    ./kitty.nix                       # terminal
+#    ./kitty.nix                       # terminal
     ./lazygit.nix
-    ./micro.nix                       # nano replacement
+#    ./micro.nix                       # nano replacement
     ./nemo.nix                        # file manager
     ./nvim.nix                        # neovim editor
     ./obsidian.nix
@@ -25,14 +25,15 @@
     ./packages.nix                    # other packages
     ./retroarch.nix  
     ./rofi.nix                        # launcher
-    ./scripts/scripts.nix             # personal scripts
-    ./spicetify.nix                   # spotify client
+#    ./scripts/scripts.nix             # personal scripts
+#    ./school.nix
+#    ./spicetify.nix                   # spotify client
     ./starship.nix                    # shell prompt
     ./swaylock.nix                    # lock screen
     ./swayosd.nix                     # brightness / volume wiget
     ./swaync/swaync.nix               # notification deamon
     ./viewnior.nix                    # image viewer
-    ./vscodium.nix                    # vscode forck
+#    ./vscodium.nix                    # vscode forck
     ./waybar                          # status bar
     ./waypaper.nix                    # GUI wallpaper picker
     ./xdg-mimes.nix                   # xdg config

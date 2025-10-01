@@ -2,7 +2,7 @@
 {
   programs = {
     steam = {
-      enable = false;
+      enable = true;
 
       remotePlay.openFirewall = true;
       dedicatedServer.openFirewall = false;
@@ -20,5 +20,17 @@
         "--expose-wayland"
       ];
     };
+
+    gamemode = {
+      enable = true;
+    };
   };
+
+  hardware = {
+    steam-hardware = {
+      enable = true;
+    };
+  };
+
+  boot.blacklistedKernelModules = [ "xpad" ];
 }
