@@ -1,26 +1,25 @@
 <h1 align="center">
    <img src="./.github/assets/logo/nixos-logo.png  " width="100px" /> 
    <br>
-      Frost-Pheonix's Flakes
+      Kahnshaak's Flakes
    <br>
       <img src="./.github/assets/pallet/pallet-0.png" width="600px" /> <br>
 
    <div align="center">
       <p></p>
       <div align="center">
-         <a href="https://github.com/Frost-Phoenix/nixos-config/stargazers">
-            <img src="https://img.shields.io/github/stars/Frost-Phoenix/nixos-config?color=FABD2F&labelColor=282828&style=for-the-badge&logo=starship&logoColor=FABD2F">
-         </a>
-         <a href="https://github.com/Frost-Phoenix/nixos-config/">
-            <img src="https://img.shields.io/github/repo-size/Frost-Phoenix/nixos-config?color=B16286&labelColor=282828&style=for-the-badge&logo=github&logoColor=B16286">
+         <a href="https://github.com/Kahnshaak/nixos-config/">
+            <img src="https://img.shields.io/github/repo-size/kahnshaak/nixos-config?color=B16286&labelColor=282828&style=for-the-badge&logo=github&logoColor=B16286">
          </a>
          <a = href="https://nixos.org">
             <img src="https://img.shields.io/badge/NixOS-unstable-blue.svg?style=for-the-badge&labelColor=282828&logo=NixOS&logoColor=458588&color=458588">
          </a>
-         <a href="https://github.com/Frost-Phoenix/nixos-config/blob/main/LICENSE">
+          <a href="https://github.com/ryan4yin/nixos-and-flakes-book">
+              <img src="https://img.shields.io/badge/Nix%20Flakes-learning-informational.svg?style=for-the-badge&logo=nixos&color=F2CDCD&logoColor=D9E0EE&labelColor=302D41"></a>
+         </a>
+         <a href="https://github.com/Kahnshaak/nixos-config/blob/main/LICENSE">
             <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&colorA=282828&colorB=98971A&logo=unlicense&logoColor=98971A&"/>
          </a>
-      </div>
       <br>
    </div>
 </h1>
@@ -38,29 +37,16 @@
    Screenshots last updated <b>2025-01-05</b>
 </p>
 
-Here is my previous Catppuccin rice. You can find it [here](https://github.com/Frost-Phoenix/nixos-config/tree/catppuccin)
-<details>
-<summary>
-Catppuccin (EXPAND)
-</summary>
-<p align="center">
-   <img src="./.github/assets/screenshots/catppuccin/1.png" style="margin-bottom: 10px;" /> <br>
-   <img src="./.github/assets/screenshots/catppuccin/2.png" style="margin-bottom: 10px;" /> <br>
-   <img src="./.github/assets/screenshots/catppuccin/3.png" style="margin-bottom: 10px;" /> <br>
-</p>  
-   <details>
-   <summary>
-   Old Catppuccin (EXPAND)
-   </summary>
-   <p align="center">
-      <img src="./.github/assets/screenshots/catppuccin/old/1.old.png" style="margin-bottom: 10px;" /> <br>
-      <img src="./.github/assets/screenshots/catppuccin/old/2.old.png" style="margin-bottom: 10px;" /> <br>
-      <img src="./.github/assets/screenshots/catppuccin/old/3.old.png" style="margin-bottom: 10px;" /> <br>
-   </p>
-   </details>
-</details>
-
 # 🗃️ Overview
+
+This configuration is heavily borrowed from [Frost-Phoenix](https://github.com/Frost-Phoenix/nixos-config/) who's configuration inspired me to want to really get into nix and have an extensive and reliable build. I am still in the process of personalizing everything I learned from using this configuration over the past while, but it has been such a wonderful journey for me. Eventually I will be building an entire configuration from scratch, and hope to make it user-friendly for new people to not go through some of the pain that I have.
+
+If you are interested in other nix configurations to learn from, you can take a look at some of the following, which I compile while I am really learning the system:
+ - [NotAShelf](https://github.com/NotAShelf/nyx): If you only look at one, let it be this one
+ - [ryan4yin](https://github.com/ryan4yin/nix-config): Excellent dotfiles, a [how-to-flakes](https://github.com/ryan4yin/nixos-and-flakes-book) book, and a [nix-darwin](https://github.com/ryan4yin/nix-darwin-kickstarter) configuration for mac users
+ - [hlissner](https://github.com/hlissner/dotfiles): really good FAQ if you want somewhere to start
+ - [Vimjoyer](https://www.youtube.com/@vimjoyer): simple videos about how to get started in this space
+ - [Mitchell Hashimoto also uses nix](https://github.com/mitchellh/nixos-config), be it in an unconventional way
 
 ## 📚 Layout
 
